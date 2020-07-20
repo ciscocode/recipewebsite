@@ -1,0 +1,95 @@
+html, body {
+    font-family: American Typewriter, serif;
+    background-image: radial-gradient(#FDDFDF,#FCF7DE,#F0DEFD)
+}
+
+
+ .homelink {
+    font-size: 2rem;
+}
+
+h1, nav {
+    text-align: center;
+    font-size: 3rem
+}
+
+h2 {
+    font-size: 2rem
+}
+
+.steps {
+    text-align: left;
+}
+
+
+h2, h3, blockquote, footer {
+    text-align: center;
+    margin-top: 10px;   
+    margin-bottom: 10px; 
+}
+
+ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+.footerlink {
+    font-size: 1rem;
+}
+
+.align-center {
+    text-align: center;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.steps {
+    padding-left: 75px;
+    padding-right: 75px;  
+}
+
+
+#navigationlist {
+    list-style-type: none;
+    font-size: 1rem
+}
+
+#mainimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:650px;
+    border: 5px solid pink;
+    padding: 5px;
+}
+
+.stepimage {
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    border: 5px dotted pink;
+    padding: 5px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+flex-container > div {
+    margin: 10px;
+    text-align: center;
+}
+
+.imagelink {
+    max-width: 150px;
+    border: none;
+}
+
+.imagelink:hover {
+    background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
